@@ -48,6 +48,10 @@
           ".bqddl",
           ".bqdml"
         ],
+        "icon": {
+          "light": "./images/BigQuery.png",
+          "dark": "./images/BigQuery.png"
+        },
         "configuration": "./language-configuration.json"
       }
     ],
