@@ -4,6 +4,21 @@ All notable changes to the "sql-bigquery" extension will be documented in this f
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2024-07-31
+### Breaking Changes
+- Renamed the language ID from `sql-bigquery` to `bqsql`.
+  - This change was made to provide syntax highlight to [BigQuery Driver for SQLTools](https://marketplace.visualstudio.com/items?itemName=Evidence.sqltools-bigquery-driver), which together with [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) provide autocompletion and integration with BigQuery.
+
+### Added
+- File icon to `bqsql` language.
+
+### Changes
+- Renamed the extension to `BigQuery SQL Language Support`.
+- Updated metadata for publishing forked extension.
+
+### Fixed
+- Incorrect highlight of table names with hyphens (merged from upstream [shinichi-takii/vscode-language-sql-bigquery#49](https://github.com/shinichi-takii/vscode-language-sql-bigquery/pull/49) by [@alatani](https://github.com/alatani)).
+
 
 ## [1.9.0] - 2021-08-16
 ### Added
@@ -2039,6 +2054,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release
 
 
+[2.0.0]: https://github.com/dalbitresb12/vscode-language-bqsql/compare/v1.9.0...v2.0.0
 [1.9.0]: https://github.com/shinichi-takii/vscode-language-sql-bigquery/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/shinichi-takii/vscode-language-sql-bigquery/compare/v1.7.0...v1.8.0
 [1.7.0]: https://github.com/shinichi-takii/vscode-language-sql-bigquery/compare/v1.6.1...v1.7.0
