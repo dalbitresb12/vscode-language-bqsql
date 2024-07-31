@@ -19,4 +19,4 @@ Syntax highlighting and code snippets for BigQuery SQL in Visual Studio Code.
 
 ## Usage
 1. View > Command Pallet > Change Language Mode (or `ctrl-shift-L`)
-2. Select to `SQL (BigQuery)`
+2. Select to `BigQuery SQL`

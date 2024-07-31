@@ -35,10 +35,10 @@
   "contributes": {
     "languages": [
       {
-        "id": "sql-bigquery",
+        "id": "bqsql",
         "aliases": [
-          "SQL (BigQuery)",
-          "sql-bigquery"
+          "BigQuery SQL",
+          "bqsql"
         ],
         "extensions": [
           ".sql",
@@ -53,15 +53,15 @@
     ],
     "grammars": [
       {
-        "language": "sql-bigquery",
-        "scopeName": "source.sql-bigquery",
-        "path": "./syntaxes/sql-bigquery.tmLanguage.json"
+        "language": "bqsql",
+        "scopeName": "source.bqsql",
+        "path": "./syntaxes/bqsql.tmLanguage.json"
       }
     ],
     "snippets": [
       {
-        "language": "sql-bigquery",
-        "path": "./snippets/sql-bigquery.snippets.json"
+        "language": "bqsql",
+        "path": "./snippets/bqsql.snippets.json"
       }
     ]
   }

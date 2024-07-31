@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "SQL (BigQuery)",
+  "name": "BigQuery SQL",
   "patterns": [
     {
       "include": "#comments"
@@ -685,5 +685,5 @@
       ]
     }
   },
-  "scopeName": "source.sql-bigquery"
+  "scopeName": "source.bqsql"
 }
