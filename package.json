@@ -1,11 +1,11 @@
 {
-  "name": "sql-bigquery",
-  "displayName": "SQL (BigQuery)",
-  "description": "BigQuery SQL language support in Visual Studio Code",
+  "name": "bqsql",
+  "displayName": "BigQuery SQL Language Support",
+  "description": "BigQuery SQL language support in Visual Studio Code (forked from SQL (BigQuery) by Shinichi Takii)",
   "version": "1.9.0",
-  "publisher": "shinichi-takii",
+  "publisher": "dalbitresb12",
   "author": {
-    "name": "Shinichi Takii"
+    "name": "dalbitresb12"
   },
   "license": "MIT",
   "engines": {
@@ -23,13 +23,13 @@
     "syntax",
     "snippets"
   ],
-  "homepage": "https://github.com/shinichi-takii/vscode-language-sql-bigquery/blob/master/README.md",
+  "homepage": "https://github.com/dalbitresb12/vscode-language-bqsql/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinichi-takii/vscode-language-sql-bigquery.git"
+    "url": "https://github.com/dalbitresb12/vscode-language-bqsql.git"
   },
   "bugs": {
-    "url": "https://github.com/shinichi-takii/vscode-language-sql-bigquery/issues"
+    "url": "https://github.com/dalbitresb12/vscode-language-bqsql/issues"
   },
   "icon": "images/BigQuery.png",
   "contributes": {
