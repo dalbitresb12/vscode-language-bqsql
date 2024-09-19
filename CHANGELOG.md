@@ -7,6 +7,13 @@ All notable changes to the "BigQuery SQL Language Support" extension will be doc
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - 2024-09-18
+
+### Fixed
+
+- Incorrect highlight of column names ending with `FROM` ([#1](https://github.com/dalbitresb12/vscode-language-bqsql/issues/1)).
+- Removed `.github` folder from packaged extension.
+
 ## [2.0.0] - 2024-07-31
 
 ### Breaking Changes
@@ -2429,6 +2436,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
+[2.0.1]: https://github.com/dalbitresb12/vscode-language-bqsql/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/dalbitresb12/vscode-language-bqsql/compare/v1.9.0...v2.0.0
 [1.9.0]: https://github.com/shinichi-takii/vscode-language-sql-bigquery/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/shinichi-takii/vscode-language-sql-bigquery/compare/v1.7.0...v1.8.0
