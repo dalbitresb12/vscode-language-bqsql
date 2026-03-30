@@ -35,7 +35,7 @@
           "name": "entity.name.function.sql"
         }
       },
-      "match": "(?i:^\\s*(create(?:\\s+or\\s+replace)?(?:\\s+temporary|\\s+temp)?|drop|alter)\\s+(schema|table(?:\\s+function)?|view|materialized\\s+view|(?:external|snapshot)\\s+table|model|function|procedure|column)\\b(?:\\s+(if(?:\\s+not)?\\s+exists)\\b)?\\s+((?:`[^`]+`\\.){1,2}`[^`]+`))",
+      "match": "(?i:^\\s*(create(?:\\s+or\\s+replace)?(?:\\s+temporary|\\s+temp)?|drop|alter)\\s+(schema|table(?:\\s+function)?|view|materialized\\s+view|(?:external|snapshot)\\s+table|model|function|procedure|column)\\b(?:\\s+(if(?:\\s+not)?\\s+exists)\\b)?\\s+((?:`[^`]+`\\.){1,3}`[^`]+`))",
       "name": "meta.create.segmented.sql"
     },
     {
@@ -50,7 +50,7 @@
           "name": "variable.parameter.table.partition_decorator.sql"
         }
       },
-      "match": "(?i:^\\s*\\b((?:insert|merge)(?:\\s+into)?|truncate\\s+table)\\s+((?:`[^`]+`\\.){1,2}`[^`]+`)(\\*|\\$\\w+)?)",
+      "match": "(?i:^\\s*\\b((?:insert|merge)(?:\\s+into)?|truncate\\s+table)\\s+((?:`[^`]+`\\.){1,3}`[^`]+`)(\\*|\\$\\w+)?)",
       "name": "meta.create.DML.insert.segmented.sql"
     },
     {
@@ -65,7 +65,7 @@
           "name": "variable.parameter.table.partition_decorator.sql"
         }
       },
-      "match": "(?i)\\b(from|join|delete\\s+from|delete(?!\\s+from)|update|using(?!\\s+message)|clone|on\\s+(?:schema|table|view))\\s+((?:`[^`]+`\\.){1,2}`[^`]+`)(\\*|\\$\\w+)?",
+      "match": "(?i)\\b(from|join|delete\\s+from|delete(?!\\s+from)|update|using(?!\\s+message)|clone|on\\s+(?:schema|table|view))\\s+((?:`[^`]+`\\.){1,3}`[^`]+`)(\\*|\\$\\w+)?",
       "name": "meta.create.from.segmented.sql"
     },
     {
@@ -80,7 +80,7 @@
           "name": "variable.parameter.table.partition_decorator.sql"
         }
       },
-      "match": "(?i:\\b(model|call)\\s+((?:`[^`]+`\\.){1,2}`[^`]+`)(\\*|\\$\\w+)?)",
+      "match": "(?i:\\b(model|call)\\s+((?:`[^`]+`\\.){1,3}`[^`]+`)(\\*|\\$\\w+)?)",
       "name": "meta.other.table.ml_procedure.segmented.sql"
     },
     {
