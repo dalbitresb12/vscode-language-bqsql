@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24.x
-      - run: npx vsce package
+      - run: npx @vscode/vsce package
         name: Package extension
       - uses: actions/upload-artifact@v7
         with:
@@ -31,7 +31,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/download-artifact@v8
-      - run: npx vsce publish --packagePath $(find . -iname *.vsix)
+      - run: npx @vscode/vsce publish --packagePath $(find . -iname *.vsix)
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
       - uses: softprops/action-gh-release@v2
